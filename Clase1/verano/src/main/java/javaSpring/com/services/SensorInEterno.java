@@ -27,7 +27,7 @@ public class SensorInEterno {
         this.evaluadorMultas = evaluadorMultas;
     }
 
-    public void pruebaSensor() {
+    public void sensar() {
 
         TipoClima tipoClima = sensorClima.sensar();
         System.out.println(tipoClima);

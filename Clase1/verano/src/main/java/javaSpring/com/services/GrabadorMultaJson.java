@@ -5,10 +5,20 @@
  */
 package javaSpring.com.services;
 
+import javaSpring.com.model.Ticket;
+import javaSpring.com.repositories.GrabadorMulta;
+
 /**
  *
  * @author Marian
  */
-public class GrabadorMultaJson {
+public class GrabadorMultaJson implements GrabadorMulta{
+    
+     @Override
+    public void grabar(Ticket t) {
+        System.out.println("Grabando Ticket en formato JSON");
+        
+        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
